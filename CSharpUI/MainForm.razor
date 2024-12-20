@@ -1,0 +1,12 @@
+﻿<h3>Hello, CSharpUI!</h3>
+<p>Current count: @count</p>
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int count = 0;
+
+    private void IncrementCount()
+    {
+        count++;
+    }
+}
